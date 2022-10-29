@@ -1,0 +1,32 @@
+# From https://tutorial-extensions.djangogirls.org/en/heroku/
+*.pyc
+db.sqlite3
+myvenv
+__pycache__
+local_settings.py
+staticfiles/*
+static/*
+venv*/
+#import_data/
+.idea/
+sandbox/
+media/
+notebooks/.ipynb_checkpoints
+notebooks/jupyterenv
+.env
+.env.docker
+*.swp
+dbdumps/
+data-dumps
+
+### vscode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+
+# Temp files
+*.DS_Store
+.coverage
